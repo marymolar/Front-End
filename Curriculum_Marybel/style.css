@@ -1,0 +1,53 @@
+
+
+.portada{ background-image:url(img/4182a9dd330c6442c4a1fbc78274d838.jpg);
+}
+
+/* Foto */
+
+.foto{display:block;
+    margin:auto;
+   
+    width: 200px;
+    height: 250px;
+
+}
+
+/* titulo */
+
+.titulo{text-align: center;
+    font-size: 35px;
+    font-weight:bold;
+    font-style:normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#005677;
+    background-color:#C4C4C4;
+   
+}
+
+/* Datos */
+
+.encabezado{background-color:#C4C4C4;
+    color:#005677;
+    font-style:normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    height: 30px;
+
+}
+
+
+.pie-pagina{background-color:#005677;
+    color:white;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    height: 37px;
+    display:flex;
+    justify-content: center;
+
+
+    }
+
+

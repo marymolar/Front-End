@@ -1,0 +1,179 @@
+*{
+    font-family: 'roboto';
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.nav-bar{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+   
+}
+
+.enlaces{
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px; 
+}
+
+#logo-superior{
+   
+    margin-left: 20px;
+
+}
+
+.nav-links{
+    font-size: 16px;
+    margin:0 10px ;
+}
+
+
+.contenedor{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5E5E5;
+   
+   
+}
+
+
+#repartidor{
+
+    margin: 135px 20px;
+    border-radius: 5px;
+    width:490px;
+    height:350px;
+    display: flex;
+    align-items: center;
+   
+}
+
+#imagen1{
+   
+    display: flex;
+    position: relative;
+}
+
+#envio{
+    position: absolute;
+    color: #FC200C;
+    top: 160px;
+    left: 50px;
+
+}
+
+#comprando{
+    color: #FFFFFF;
+}
+
+
+.contenedor2{
+    
+   width:490px;
+   height:350px;
+   margin: 135px 20px;
+   border-radius: 5px;
+   position: relative;
+   background: #FFFFFF;
+   
+}
+
+#podio-pizzas{
+    
+    color: #FC200C;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 26px;
+    margin-left: 160px;
+    position: absolute;
+   
+}
+    
+#imagen-pizza{
+   
+    margin: 0 74px;
+    position: absolute;
+    top: 130px;
+    left: 240px; 
+}
+   
+
+#top-pizza{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #222222;
+   
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 69px;
+    
+}
+
+.tipo-pizza{
+    margin: 10px;
+}
+
+#pizzas{
+    color: #222222;
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 20px;  
+    font-weight: bold;
+
+}
+
+
+.contenedor1{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer{
+
+    background-color: #222222;
+    color: #F3F3F3;
+    height: 200px;  
+    
+}
+
+.enlaces-pie{
+   
+display: flex;
+flex-direction: column;
+ 
+}
+
+.nav-links-pie{
+
+display: flex;
+margin: 12px 0px;
+   
+}
+
+
+#logo-pie{
+
+margin-right: 42px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
