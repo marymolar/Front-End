@@ -1,0 +1,471 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+
+    background-color: #222222;
+    color: #F3F3F3;  
+
+
+}
+
+
+.header1{
+
+    display: flex;
+    justify-content: space-between;
+     margin: 0 90px;
+}
+
+
+#idioma{
+    display: flex;
+    
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    color: #F3F3F3;
+    background-color:#F0A83E;
+    height: 62px;;
+    
+}
+
+#logo-header{
+    margin: 19px 40px;
+}
+
+.navegacion{
+ 
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.nav-bar{
+    
+    display: flex;
+    margin-right:40px;
+}
+
+.nav-links{
+    margin-right: 20px;
+ 
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.fondo-imagen{
+    width: 100%;
+   
+}
+
+.contenedor1{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.es-un-placer{
+    position:absolute;
+    background-color: #F3F3F3;
+    font-size: 30px;
+    width: 365px;
+    height: 54px;
+    margin: 0 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+   
+}
+
+
+.comederos-descuento{
+
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    margin: 50px;
+    border-radius: 5px;
+     
+}
+
+
+.comederos{
+    background-color: #F0A83E;
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    margin: 50px 15px;
+    border-radius: 5px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+   
+
+    
+}
+
+.huella{
+    display: flex;
+    width: 67px;
+    height: 71px;
+    margin: 20px;
+  
+}
+
+.productos-destacados{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.nav-productos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 49px;
+    
+}
+
+.nav-productos-links{
+    margin-right: 31px;
+    
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 78px;
+
+}
+
+.imagenes{
+    display: flex;
+   
+}
+
+.juguete-churrasquito{
+
+    width: 265px;
+    height: 312px;
+    background-color:#FBFAF6;
+    font-weight: 500;
+    font-size: 15px;
+    color:#3C2313;
+    text-align: center; 
+    margin-right: 20px;
+    
+   
+}
+
+
+.comedero-para-perros{
+    
+    width: 265px;
+    height: 312px;
+    background-color:#FBFAF6;
+    font-weight: 500;
+    font-size: 15px;
+    color:#3C2313;
+    text-align: center; 
+    margin-right: 20px;
+   
+}
+
+
+.juguete-huesito{
+    
+    width: 265px;
+    height: 312px;
+    background-color:#FBFAF6;
+    font-weight: 500;
+    font-size: 15px;
+    color:#3C2313;
+    text-align: center; 
+
+}
+
+
+.precio{
+    color:#F0A83E;
+    font-size: 15px;
+
+}
+
+.contenedor4{
+    display: flex;
+    justify-content: center;
+}
+
+
+.formulario{
+    width: 340px;
+    height: 264px;
+    margin-bottom: 75px; 
+    display: flex;
+}
+
+#form-contactanos{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #3C2313;
+    margin-bottom: 20px;
+
+}
+
+
+#usuario{
+    display: flex;
+    background-color:#3C2313;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+#email{
+    display: flex;
+    background-color:#3C2313;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+#telefono{
+    display: flex;
+    background-color:#3C2313;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 41px;
+    color: #FFFFFF;
+    
+}
+
+
+.botones{display: flex;
+    justify-content: center;
+
+}
+
+#boton-resetear{
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color:#8A8787;
+    font-size: 16px;
+    margin-right: 6px;
+    
+}
+
+
+#boton-enviar{
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color:#F0A83E;
+    font-size: 16px;
+
+}
+
+.contenedor5{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+}
+
+
+.footer1{
+    display: flex; 
+    margin-left: 23px; 
+    align-items: center;  
+    
+}
+
+.suscribete{
+
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.botones-ingresa{
+    display: flex;
+    margin: 10px 47px;
+
+}
+
+#ingresa-email{
+  
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    color:#A0A0A0;
+    font-size: 9px;
+    margin-right: 5px;
+    
+}
+
+#suscribirme-email{
+    
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    background-color:#3C2313;
+    color:#FFFFFF;
+    font-size: 9px;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+
+.footer2{
+    background-color:#3C2313;
+    display: flex;
+    justify-content: space-between;
+    height: 320px;
+       
+}
+
+.footer-logos2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 72px;
+}
+
+
+
+#logo-footer2{
+    
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    
+
+}
+
+.logo-localidad{
+   
+    margin: 15px;
+
+}
+
+.logo-telefono{
+
+    margin: 15px;
+  
+}
+
+.logo-correo-electronico1{
+
+    margin: 15px;
+
+}
+
+
+footer{
+    background-color: #222222;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+@media (min-width:0px) and (max-width:480px)
+
+/* queries para celular */
+
+{
+
+    .nav-bar{
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer2{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #ingresa-email{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    }
+
+@media (min-width:481px) and (max-width:768px){
+    
+    /* queries para celular y tablets */
+
+    .nav-bar{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer2{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #ingresa-email{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    
+    }
