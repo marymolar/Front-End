@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylecontacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="encabezado1">
+            <p id="descuentos">20% de descuento en todos los productos!</p>
+        </div>
+        <div id="encabezado2">
+            <img id="logo-tienda" src="img/logo 1.svg" alt="logo">
+            <p id="nombre-tienda">Nombre Tienda</p>
+        </div>
+    </header>
+<section>
+    <div class="formulario">
+        <p class="formulario-contacto">Contacto</p>
+        <form action="contacto" method="post">
+            <label for="nombre">Nombre y apellido:</label>
+                <input type="text" name="nombre" id="nombre">
+            <label for="email">Correo electronico:</label>
+                <input type="email" name="email" id="email">
+            <label>Comentario:</label>
+                <textarea name="comentario" id="comentario"></textarea>
+               
+            <div id=botones>
+                <input value="Resetear" type="reset" id="boton-resetear">
+                <input value="Entrar" type="submit" id="boton-entrar">
+            </div>
+        </form>
+    </div>
+</section>
+    
+<footer>Todos los derechos reservados a FRONT END 1</footer>
+</body>
+</html>

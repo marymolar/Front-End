@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+#encabezado1{
+    
+    background-color: #1CD1B0;
+    
+    
+
+}
+
+#descuentos{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 20px;
+
+}
+
+#encabezado2{
+    
+    background-color: #00669F;
+    display: flex;
+    
+   
+
+}
+
+#logo-tienda{
+
+    margin: 3px 10px;
+}
+
+
+#nombre-tienda{
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+
+
+} 
+
+
+a{
+    text-decoration: none;
+    
+}
+
+.formulario{
+
+   
+    width: 500px;
+    height: 500px;
+    margin: 150px 450px 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario-contacto{
+    color: black;
+    font-weight: bold;
+    font-size: 72px;
+    height: 70px;
+    margin-bottom: 50px;
+   
+}
+
+#nombre{
+    display: flex;
+    margin-bottom: 10px;
+    width: 480px;
+    height: 40px;
+    border: 1,53px solid #000000;
+
+    
+}
+
+#email{ 
+    display: flex;
+    margin-bottom: 10px;
+    width: 480px;
+    height: 40px;
+    border: 1,53px solid #000000;
+
+}
+
+#comentario{
+    display: flex;
+    width: 480px;
+    height: 250px;
+    border: 1,53px solid #000000;
+}
+
+
+#botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+#boton-resetear{
+
+    border-radius: 23.011px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color:#888888;
+    width: 300px;
+    margin-top: 47px;
+    margin-right:20px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#boton-entrar{
+    
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#000000;
+    width: 300px;
+    justify-content: center;
+    margin-top: 47px;
+    margin-right:20px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+
+footer{
+    
+    background-color: #00669F;
+    height: 51px;
+    color: #FFF9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}

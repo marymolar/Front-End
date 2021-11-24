@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+#encabezado1{
+    
+    background-color: #1CD1B0;
+    
+    
+
+}
+
+#descuentos{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 20px;
+
+}
+
+#encabezado2{
+    
+    background-color: #00669F;
+    display: flex;
+    
+   
+
+}
+
+#logo-tienda{
+
+    margin: 3px 10px;
+}
+
+
+#nombre-tienda{
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+#encabezado3{
+    background-color:#001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+
+}
+
+
+#nav-links{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+}
+
+ .links{margin: 10px 10px;
+   
+ }   
+    
+
+
+a{
+    text-decoration: none;
+    
+}
+
+.formulario-login{
+    width: 620px;
+    height: 428px;
+    margin: 100px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo-login{
+    
+    font-weight: bold;
+    font-size: 72px;
+    color: #333333;
+    margin-bottom: 55px;
+    
+}
+
+#usuario{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#password{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    margin-bottom: 59px;
+}
+
+#entrar{
+    display: flex;
+    justify-content: center;
+    background-color:#1CD1B0;
+    width: 620px;
+    height: 54px;
+    border-radius: 23.011px;
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+#registrarme{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+footer{
+    
+    background-color: #00669F;
+    height: 51px;
+    color: #FFF9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px)
+
+/* medida para celular */
+{
+.contenedor-principal{
+
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+@media (min-width:481px ) and (max-width:768px)
+
+/* medidas para tablet */
+{
+    .contenedor-principal{
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+

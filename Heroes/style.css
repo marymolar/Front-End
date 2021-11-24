@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+#encabezado1{
+    
+    background-color: #1CD1B0;
+    
+    
+
+}
+
+#descuentos{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 20px;
+
+}
+
+#encabezado2{
+    
+    background-color: #00669F;
+    display: flex;
+    
+   
+
+}
+
+#logo-tienda{
+
+    margin: 3px 10px;
+}
+
+
+#nombre-tienda{
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+#encabezado3{
+    background-color:#001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+
+}
+
+
+#nav-links{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+}
+
+ .links{margin: 10px 10px;
+   
+ }   
+    
+
+
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+
+.contenedor-principal{
+
+    display: flex;
+    justify-content: center;
+    margin: 134px 20px; 
+    
+}
+
+
+.contenedor{
+
+    position: relative;
+    margin: 0 20px;
+    
+}
+    
+
+.fondo-heroe{
+   
+    height: 193px;
+    width: 300px;
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.imagen-heroe{
+    border-radius: 50%;
+    height: 118px;
+    left: 90px;
+    position: absolute;
+    top: 126px;
+    width: 120px;
+
+
+}
+
+
+.info-heroe{
+  
+    width: 300px;
+    height: 336px;
+    left: 32px;
+    top: 485px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.nombre-heroe{
+
+    margin: 20px 0 10px 0;
+    font-size: 30px;
+    
+}
+
+.parrafo-heroe{
+    margin: 10px 17px 37px 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.ver-mas{
+    
+    font-size: 15px;
+    font-weight: 400;
+    height: 48.52px;
+    width: 128.78px;
+    background-color: #00669F;
+    color: #F3F3F3;
+
+}
+
+.fas{
+
+    left: 5%;
+    right: 80%;
+    top: 1%;
+    bottom: 50%;
+    font-size:30px;
+    color:#CC2424;
+    position: absolute;
+}
+
+
+
+footer{
+    
+    background-color: #00669F;
+    height: 51px;
+    width: 100%;
+    color: #FFF9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px)
+
+/* medida para celular */
+{
+.contenedor-principal{
+
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+@media (min-width:481px ) and (max-width:768px)
+
+/* medidas para tablet */
+{
+    .contenedor-principal{
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
