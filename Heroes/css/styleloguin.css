@@ -28,9 +28,6 @@
     
     background-color: #00669F;
     display: flex;
-    
-   
-
 }
 
 #logo-tienda{
@@ -70,7 +67,6 @@
  .links{margin: 10px 10px;
    
  }   
-    
 
 
 a{
@@ -78,12 +74,22 @@ a{
     
 }
 
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+
 .formulario-login{
     width: 620px;
     height: 428px;
-    margin: 100px 400px;
+    margin: 100px 100px;
     display: flex;
     flex-direction: column;
+    
+    
+    
 }
 
 #titulo-login{
@@ -138,27 +144,48 @@ footer{
 }
 
 
+#usuario:hover{
 
-@media (min-width: 0px) and (max-width: 480px)
-
-/* medida para celular */
-{
-.contenedor-principal{
-
-    display: flex;
-    flex-direction: column;
-
-}
+    border: #00669F solid;
 }
 
-@media (min-width:481px ) and (max-width:768px)
+#usuario:focus{
 
-/* medidas para tablet */
-{
-    .contenedor-principal{
-
-        display: flex;
-        flex-direction: column;
-    }
+    background-color: grey;
+    
 }
+
+a:hover, 
+a:active{
+
+    color:blue;
+    
+
+}
+
+#registrarme::after{
+
+    content:"No te olvides visitar nuestras redes sociales";
+    color: cadetblue;
+     
+}
+
+p:nth-child(2){
+
+    border: dotted #1CD1B0;
+}
+
+#password:hover{
+
+    border: #00669F solid;
+}
+
+#password:focus{
+
+    background-color: grey;
+    
+}
+
+
+
 

@@ -59,16 +59,23 @@ a{
 
 .formulario{
 
-   
+    display: flex;
+    justify-content: center;
+}
+    
+
+.formulario-contacto{
+
     width: 500px;
     height: 500px;
-    margin: 150px 450px 250px;
+    margin: 150px;
     display: flex;
     flex-direction: column;
     
+
 }
 
-.formulario-contacto{
+#contacto-titulo{
     color: black;
     font-weight: bold;
     font-size: 72px;
