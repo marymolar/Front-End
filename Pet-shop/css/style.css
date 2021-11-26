@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -63,51 +64,61 @@ a{
     color:inherit;
 }
 
-.fondo-imagen{
-    width: 100%;
-   
-}
-
 .contenedor1{
-    
+
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; 
     
 }
 
+#fondo-imagen{
+
+    
+    width: 100%;
+    
+
+}
+
+
+.contenedor-info{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    position: absolute;
+    margin-right: 12px;
+  
+}
+
+
 .es-un-placer{
-    position:absolute;
+    
     background-color: #F3F3F3;
     font-size: 30px;
     width: 365px;
     height: 54px;
-    margin: 0 12px;
     border-radius: 5px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    line-height: 50px;
-   
+    
 }
 
 
 .comederos-descuento{
 
-    position: absolute;
-    display: flex;
     font-size: 16px;
-    margin: 50px;
-    border-radius: 5px;
-     
+    margin: 20px;
+    border-radius: 5px; 
 }
 
 
 .comederos{
     background-color: #F0A83E;
-    position: absolute;
     width: 141px;
     height: 49px;
-    margin: 50px 15px;
     border-radius: 5px;
     color: #F3F3F3;
     display: flex;
@@ -117,39 +128,48 @@ a{
 }
 
 .contenedor2{
+ 
+   
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 20px;
-   
-
-    
+    align-items: center;  
 }
 
+
 .huella{
-    display: flex;
+  
     width: 67px;
     height: 71px;
-    margin: 20px;
+    margin-top: 25px;
   
 }
 
-.productos-destacados{
+#productos-destacados{
+  
+
     font-size: 40px;
     font-weight: bold;
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    
    
 }
 
 .nav-productos{
+       
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
     margin-bottom: 49px;
+
+    
+    
     
 }
 
 .nav-productos-links{
     margin-right: 31px;
+    
+    
     
 }
 
@@ -230,7 +250,7 @@ a{
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
     color: #3C2313;
     margin-bottom: 20px;
 
@@ -320,11 +340,14 @@ a{
     font-size: 20px;
     margin-left: 10px;
     font-weight: bold;
+    
 }
 
 .botones-ingresa{
-    display: flex;
+    
     margin: 10px 47px;
+    display: flex;
+    
 
 }
 
@@ -337,6 +360,7 @@ a{
     color:#A0A0A0;
     font-size: 9px;
     margin-right: 5px;
+   
     
 }
 
@@ -350,6 +374,7 @@ a{
     font-size: 9px;
     font-weight: bold;
     justify-content: center;
+    
 
 }
 
@@ -357,26 +382,28 @@ a{
 .footer2{
     background-color:#3C2313;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     height: 320px;
        
 }
 
 .footer-logos2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 72px;
+    
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+  
 }
 
 
 
 #logo-footer2{
-    
+   
     display: flex;
     align-items: center;
-    margin-right: 70px;
-    
+    width: 200px;
+    margin-right: 40px;    
 
 }
 
