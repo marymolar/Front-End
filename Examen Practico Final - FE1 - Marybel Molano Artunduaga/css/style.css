@@ -1,0 +1,590 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+}
+
+body{
+    background-image: url(../imagenes/bg-tablet-pattern.svg);
+    font-size: 16px;
+}
+
+/* header */
+
+.contenedor1{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:grey;   
+    background-color: #B9B9C1;
+    padding: 20px;
+}
+
+.nav-menu{  
+    display: flex;  
+}
+
+
+.links-menu{
+    display: flex;
+    margin-right: 2rem;
+    
+}
+
+.links-menu:hover{
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.boton{
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    background-color:#F3603B;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.boton:hover{
+    opacity: 0.5; 
+}
+
+
+/*Bring everyone together to build better products.*/
+
+
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjeta h1{
+
+    font-weight: 700;
+    font-size: 3rem;
+    font-style: normal;
+    align-items: center;
+    letter-spacing: -0.035em;
+    color: #232c50;
+}
+
+.tarjeta p{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 157.1%;
+    margin: 28px 0px;
+}
+
+/* imagen grafico-main */
+
+#grafico{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*What´s different about Manage? */
+
+.contenedor3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card3{
+
+    width: 100%;
+}
+
+.card3 h2{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    color: #232851;    
+}
+
+.card3 p{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.1%;
+    color:#000000;
+    margin: 36px 0px;  
+}
+
+/* track company - advance in-reports - everything you need in one place */
+
+
+.card4{ 
+    display: flex;
+    flex-direction: column;      
+}
+
+.card4 h3{   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center; 
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -1.5%; 
+    color: #323851;   
+}
+
+.card4 p{   
+
+    font-size: 16.3px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: -1%;
+    color:#B3B2B7;
+    padding: 0px 0px 18px 60px;
+
+}
+.card4 h3::before{
+
+    content: "01";
+    background-color:#F3603B;
+    color: #FFFFFF;
+    width: 70px;
+    height: 43px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* What they´ve said */
+
+.contenedor4{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contenedor4 h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.21px;
+    letter-spacing: -0.01em;
+    color:#242E53; 
+}
+
+.contenedor-tarjetas{  
+    display: flex;
+    align-content: space-between; 
+}
+
+.tarjeta-ali{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 109px 10px 45px 10px;
+    padding: 20px;
+    background-color: #FAFAFA; 
+    position: relative;
+}
+
+.tarjeta-anicha{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 109px 10px 45px 10px;
+    padding: 20px;
+    background-color: #FAFAFA; 
+    position: relative;   
+}
+
+
+.tarjeta-richard{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 109px 10px 45px 10px;
+    padding: 20px;
+    background-color: #FAFAFA; 
+    position: relative; 
+}
+
+#foto-izquierda{
+    width: 70px;
+    top: -30px;
+    position: absolute;
+    
+}
+
+#foto-centro{
+    width: 70px;
+    top: -30px;
+    position: absolute;
+
+}
+
+#foto-derecha{
+    width: 70px;
+    top: -30px;
+    position: absolute;
+}
+
+
+.contenedor-tarjetas h3{
+    margin: 56.5px 0px 21px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    color:#3F4868;
+    
+}
+
+.contenedor-tarjetas p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #B9B9C1;
+    line-height: 156.6%;
+    
+}
+
+.contenedor4 .boton{
+
+    margin:30px 0px
+}
+
+.fa-ellipsis-h{
+
+    display: none;
+}
+
+
+/* Simplify hoy your team words today. */
+
+.contenedor5{
+    background-color: #F3613C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 112px 125px; 
+}
+
+.contenedor5 h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    
+}
+
+.contenedor5 .boton{
+    background-color: #FFFFFF;
+    color:#F3603B; 
+}
+
+#go:hover{
+    opacity: 0.5;
+}
+
+/* footer */
+
+
+.container-footer{
+
+    background-color:#1E1E26;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.box-logo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconos-footer{
+
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.fa:hover{
+    color: #F3613C;
+}
+
+.container-footer li{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 12px 20px;
+}
+
+.nav-footer{
+
+    display: flex;
+}
+
+.nav-footer li{
+
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.container-footer li:hover{
+    color: #F3613C; 
+}
+
+.box-footer{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-correo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+#email{
+
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #A0A0A0;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13.18px;
+    padding: 10px;
+    
+}
+
+
+#go{
+    width: 63px;
+    height: 42px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 13.18px;
+    cursor:pointer;  
+}
+
+
+.formulario-correo{
+    color: #8C8C94;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12.5px;   
+}
+
+span{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#mobile-copyright{
+    display: none;
+    color: #8C8C94;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12.5px;
+    background-color:#1E1E26; 
+}
+
+
+/* medida para celular */
+
+@media (max-width:375px)
+
+{
+
+/* header */
+
+    #hamburger{
+
+    display: inline-block;
+    font-size: 25px;
+    cursor:pointer; 
+    }
+
+    .contenedor1 .boton{
+    display: none;
+    }
+    
+    .contenedor1 .links-menu{
+    display: none;
+    }
+
+    /* Bring everyone together to build better products */
+
+    .tarjeta{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .contenedor2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    #grafico{
+    order: -1; 
+    }
+
+    #grafico-main{
+
+    width: 100%;
+    }
+
+    .contenedor3{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .card3{
+    text-align: center;
+    }
+    
+    /* what they've said */
+
+    .tarjeta-anicha{
+    display: none;
+    }
+
+    .tarjeta-richard{
+    display: none;
+    }
+
+    .fa-ellipsis-h{
+    display: inline-block;
+    }
+
+    /*simplify how your team words today  */
+
+    .contenedor5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px; 
+    }
+
+    /* footer */
+
+    .container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .container-footer span{
+    display: none;
+    }
+
+    #mobile-copyright{
+    display:flex;
+    justify-content: center;
+    }
+
+    .formulario-correo{
+    display: flex;
+    }
+
+    .box-logo{
+    order: 1;
+    }
+
+    .container-footer .box-footer {
+    order: -1;
+    }
+
+    }
+
+    /* medida para desktop */
+
+    @media (min-width:376px) 
+    {
+
+    /* header */
+
+
+    .contenedor1{
+    padding: 65px 165px;
+    
+    }
+
+    #hamburger{
+        display: none;
+        
+    }
+    
+    .contenedor2{
+    
+    margin: 65px 165px;   
+    }
+
+    .contenedor3{
+    margin: 65px 165px;
+    }
+
+    .contenedor5{
+    margin-top: 180px;
+    padding: 65px 165px;
+    }
+
+    .container-footer{
+    padding: 65px 165px;
+    }
+
+    }
+    /* Profe muchas gracias! */
